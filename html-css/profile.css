@@ -1,0 +1,53 @@
+.owl {
+  border-radius: 50%;
+  border: 5px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*  header */
+button1 {
+  position: absolute;
+  margin-top: 50px;
+  margin-right: 5px;
+  background-color: #4250f4;
+  border-radius: 5px;
+  color: white;
+  font-weight:bold;
+  float: right;
+
+}
+
+button2 {
+  position: absolute;
+  float:right;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 70px;
+
+}
+
+.name  {
+  text-align: center;
+}
+
+.info {
+
+  text-align: center;
+}
+
+.summary {
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+#header {
+  background-color: #d5d5e5;
+}
+
+#information {
+  background-color: #d5dbe5;
+}
