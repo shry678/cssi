@@ -43,3 +43,15 @@ body {
   margin-right: 10%;
   margin-top: 2%;
 }
+
+#info {
+  background-color: #EA2533;
+}
+
+h4 {
+  font-style: italic;
+}
+
+#students {
+  background-color: #08AF22;
+}
