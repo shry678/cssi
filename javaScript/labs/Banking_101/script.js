@@ -15,21 +15,38 @@
 let customer_name;
 let balance;
 
+function testMe(a) {
+  return a + 4;
+  console.log(testMe(a));
+}
+
+
+
 function openAccount(name){
   balance = 0;
   // Set the value for customer_name equal to name below
+  customer_name=name;
+  balance =0;
+  return `${name} has opened a new account with a balance of $0`;
 
-  return //write the statment you need to return here
 }
 
 function deposit(value){
   // update the value of balance
   //return the correct statement
+  balance += value;
+  return `${customer_name} has deposited ${value}. ${customer_name}\'s total balance is \$${balance}`;
 }
 
-function withdraw(/*argument here*/){
+function withdraw(withdrawInput){
   //update the value of balance
   //return the correct statement
+  if (withdrawInput > balance) {
+    return `Sorry, ${customer_name}, you do not have enough money in your account. You need ${withdrawInput-balance} more dollars`;
+  }
+  balance-= withdrawInput;
+  return `${customer_name} has withdrawn ${withdrawInput}. ${customer_name} has \$${balance} remaining. `;
+
 }
 
 // Write your script below

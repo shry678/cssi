@@ -26,6 +26,7 @@ console.log(testMe(5));
 Here is a screenshot of what you would see in your console after running either of these code blocks.
 <!-- Insert image -->
 
+
 Test your functions with different inputs to make sure they're returning the correct things!
 
 ![](https://media.gettyimages.com/photos/closeup-of-benjamin-franklins-portrait-on-the-one-hundred-dollar-bill-picture-id636176028)

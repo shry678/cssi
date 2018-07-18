@@ -19,3 +19,38 @@ let redButton = document.querySelector('#red');
 redButton.addEventListener('click', e => {
   console.log("You clicked the red button!");
 })
+
+let blueButton = document.querySelector('#blue');
+
+blueButton.addEventListener('click', e => {
+  console.log("You clicked the blue button");
+});
+
+let greenButton = document.querySelector('#green');
+
+greenButton.addEventListener('click', e => {
+  console.log("You clicked the greenbutton");
+});
+
+
+redButton.addEventListener('click', e => {
+  responseBox.style.backgroundColor= "red";
+  responseBox.innerText= "red";
+});
+
+blueButton.addEventListener('click', e => {
+  responseBox.style.backgroundColor='blue';
+  responseBox.innerText= "blue";
+});
+
+greenButton.addEventListener('click', e=> {
+  responseBox.style.backgroundColor='green';
+  responseBox.innerText= "green";
+
+});
+
+let clearButton = document.querySelector('#clear');
+clearButton.addEventListener('click', e => {
+  responseBox.style.backgroundColor='white';
+  responseBox.innerText=" ";
+});
